@@ -44,7 +44,7 @@ def turn(board)
   num = gets.to_i
   index = num
   if index.between?(0,8)
-    move(board,index,character)
+    move(board,index,character="X")
   else
     puts "Please enter 1-9:"
     num = gets.to_i

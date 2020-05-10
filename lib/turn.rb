@@ -44,7 +44,7 @@ def turn(board)
   if valid_move?(board,index)
     move(board,index,character="X")
   else
-    until index.between?(0,8)
+    until index <=9
       puts "Please enter 1-9:"
     end
   end

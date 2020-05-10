@@ -47,5 +47,6 @@ def turn(board)
     until index.between?(0,8):
       puts "Please enter 1-9:"
       num = gets.to_i
+      break
   end
 end

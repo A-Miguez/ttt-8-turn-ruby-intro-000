@@ -48,5 +48,6 @@ def turn(board)
       puts "Please enter 1-9:"
       num = gets.to_i
       break
+    end
   end
 end
